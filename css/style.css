@@ -1,0 +1,206 @@
+body {
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color:whitesmoke;
+}
+
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header {
+    background-color:gray;
+    color:white;
+    min-height:70px;
+    padding-top:30px;
+    border-bottom:orange solid 3px;
+    
+}
+
+header a {
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:15px;
+}
+
+header ul {
+    padding:0;
+    margin:0;
+
+}
+
+header li {
+    list-style: none;  
+    display:inline;
+    padding:0 20px;
+}
+
+header #branding {
+    float:left;
+}
+
+header #branding h1 {
+    margin:0;
+}
+
+header nav {
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight {
+    color:orange;
+}
+
+header a:hover {
+    color:orange;
+}
+
+header .current a {
+    color:orange;
+    font-weight:bold;
+}
+
+#showcase {
+    min-height:400px;
+    background:url(/images/background.jpg);
+    text-align:center;
+    color:white;
+}
+
+#showcase h1{
+    font-size:60px;
+    margin-top:100px;
+    margin-bottom:10px;
+}
+
+#showcase p {
+    font-size:30px;
+}
+
+#newsletter {
+    color:white;
+    background-color:rgb(67, 66, 66);
+    padding:15px;
+}
+
+#newsletter h1 {
+    float:left;
+}
+
+#newsletter form {
+    float:right;
+    margin-top:15px;
+}
+
+#newsletter input[type="email"] {
+    padding:4px;
+    width:250px;
+    height:25px;
+}
+
+.button-1 {
+    height:36px;
+    background-color:orange;
+    color:white;
+    border:0px;
+    padding:0 20px;
+}
+
+#boxes {
+    margin-top:20px;
+}
+
+#boxes .box {
+    float:left;
+    width:30%;
+    margin:auto;
+    padding:10px;
+    text-align:center;
+}
+
+#boxes .image {
+    width:100px;
+}
+
+article#main-col {
+    width:65%;
+    float:left;
+}
+
+article#main-col h1 {
+    color:orange;
+}
+
+aside#sidebar {
+    float:right;
+    width:30%;
+    margin-top:10px;
+    background-color:rgb(67, 66, 66);
+    color:white;
+}
+
+aside h3 {
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+footer {
+    color:white;
+    padding:20px;
+    margin-top:20px;
+    background-color:orange;
+    text-align:center;
+}
+
+.ceva {
+    margin:auto;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li {
+        float:none;
+        text-align: center;
+        width:100%;
+    }
+
+    #boxes .box {
+        float:none;
+        text-align: center;
+        width:100%;
+    }
+
+    #showcase h1 {
+        margin-top:50px;
+    }
+
+    #newsletter {
+        text-align: center;
+    }
+
+    #newsletter .button-1 {
+        width:261px;
+    }
+
+    #newsletter form input {
+        margin-bottom:5px;
+    }
+
+    #newsletter h1 {
+        text-align: center;
+        float:none;
+    }
+    
+}
